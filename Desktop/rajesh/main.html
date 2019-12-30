@@ -1,0 +1,207 @@
+<html>
+<head>
+<link rel="stylesheet" href="cssfile.css">
+<title> Ice Cream Shop</title>
+</head>
+
+<script>
+function first()
+ {
+   if(document.getElementById("mon").checked == true)
+{
+   document.getElementById("lolli").innerHTML="$25";
+   document.getElementById("lolli-serv").innerHTML="For 25 Serving";
+   document.getElementById("ice").innerHTML="$50";
+   document.getElementById("ice-serv").innerHTML="For 25 Serving";
+    document.getElementById("tot-head").innerHTML="Your Savings with lollipop";
+   document.getElementById("tot").innerHTML="$25";
+}
+else
+{
+ document.getElementById("lolli").innerHTML="$50";
+   document.getElementById("lolli-serv").innerHTML="For 25 Serving";
+   document.getElementById("ice").innerHTML="$100";
+   document.getElementById("ice-serv").innerHTML="For 25 Serving";
+    document.getElementById("tot-head").innerHTML="Your Savings with lollipop";
+   document.getElementById("tot").innerHTML="$50";
+}
+}
+function second()
+ {
+  if(document.getElementById("mon").checked == true)
+{
+   document.getElementById("lolli").innerHTML="$50";
+   document.getElementById("lolli-serv").innerHTML="For 50 Serving";
+   document.getElementById("ice").innerHTML="$100";
+   document.getElementById("ice-serv").innerHTML="For 50 Serving";
+    document.getElementById("tot-head").innerHTML="Your Savings with lollipop";
+   document.getElementById("tot").innerHTML="$50";
+}
+else
+{
+ document.getElementById("lolli").innerHTML="$100";
+   document.getElementById("lolli-serv").innerHTML="For 50 Serving";
+   document.getElementById("ice").innerHTML="$200";
+   document.getElementById("ice-serv").innerHTML="For 50 Serving";
+    document.getElementById("tot-head").innerHTML="Your Savings with lollipop";
+   document.getElementById("tot").innerHTML="$100";
+}
+}
+function third()
+ {
+  if(document.getElementById("mon").checked == true)
+{
+   document.getElementById("lolli").innerHTML="$75";
+   document.getElementById("lolli-serv").innerHTML="For 75 Serving";
+   document.getElementById("ice").innerHTML="$150";
+   document.getElementById("ice-serv").innerHTML="For 75 Serving";
+    document.getElementById("tot-head").innerHTML="Your Savings with lollipop";
+   document.getElementById("tot").innerHTML="$75";
+}
+else
+{
+ document.getElementById("lolli").innerHTML="$150";
+   document.getElementById("lolli-serv").innerHTML="For 75 Serving";
+   document.getElementById("ice").innerHTML="$300";
+   document.getElementById("ice-serv").innerHTML="For 75 Serving";
+    document.getElementById("tot-head").innerHTML="Your Savings with lollipop";
+   document.getElementById("tot").innerHTML="$150";
+}
+}
+function fourth()
+ {
+  if(document.getElementById("mon").checked == true)
+{
+   document.getElementById("lolli").innerHTML="$100";
+   document.getElementById("lolli-serv").innerHTML="For 100 Serving";
+   document.getElementById("ice").innerHTML="$200";
+   document.getElementById("ice-serv").innerHTML="For 100 Serving";
+    document.getElementById("tot-head").innerHTML="Your Savings with lollipop";
+   document.getElementById("tot").innerHTML="$100";
+}
+else
+{
+ document.getElementById("lolli").innerHTML="$200";
+   document.getElementById("lolli-serv").innerHTML="For 100 Serving";
+   document.getElementById("ice").innerHTML="$400";
+   document.getElementById("ice-serv").innerHTML="For 100 Serving";
+    document.getElementById("tot-head").innerHTML="Your Savings with lollipop";
+   document.getElementById("tot").innerHTML="$200";
+}
+}
+</script>
+<body background="image/background.png">
+<center>
+
+
+<!-- Welcome Tag -->
+</br></br>
+<h1 style="color:blue;">Welcome to Ice Cream Shop</h1>
+
+
+
+<!-- Month Selector -->
+</br></br>
+<div class="toggle-main">
+
+	<div class="toggle-left"><div class="monthly">Monthly</div></div>
+		<label class="switch">
+		<input type="checkbox" id="mon">
+		<span class="slider round"></span>
+		</label>
+	<div class="toggle-right"><div class="annual">Annually<div class="fiftyoff">50% off</div></div></div>
+</div>
+
+
+<!-- Serving Selector -->
+<div>
+<button class="serving25" id="in25" onclick="first()">25erving</button>
+<button class="serving25" id="in50" onclick="second()">50serving</button>
+<button class="serving25" id="in75" onclick="third()">75serving</button>
+<button class="serving25" id="in100" onclick="fourth()">100serving</button>		
+</div>
+</br></br></br></br>
+
+
+
+<!-- Price Display -->
+<div class="rectangle-main">
+<div class="rectangle-17">
+	<div class="rectangle-18"><center></br></br></br>
+		<div class="lollipop">Lollipop </div>
+		<div class="hun">
+			<div id="lolli">$0</div>
+		</div>
+		<div class="body-35">Per Month</div>
+		<div class="body-5">
+			<div id="lolli-serv">For 0 Serving</div>
+		</div></center>
+	</div>
+	<div class="rectangle-181"><center></br></br></br>
+		<div class="lollipop">Icecandy </div>
+		<div class="hun">
+			<div id="ice">$0</div>
+		</div>
+		<div class="body-35">Per Month</div>
+		<div class="body-5">
+			<div id="ice-serv">For 0 Serving</div>
+		</div></center>
+	</div>
+</div>
+<div class="rectangle-19"><center></br></br></br></br>
+	<div class="lollipop" id="tot-head">You Savings </div>
+	<div class="hunblue" id="tot">$0</div>
+	<div class="body-35">Per Month</div>
+</center>
+</div>
+</div>
+</br></br></br></br>
+<div><img src="image/Group 6.png"></div>
+<!--
+<div class="container">
+	<div class="c3">
+		<img src="BG.png">
+	</div>
+	<div class="centered">This is a heading intwo lines</div>
+	<div class="c3">
+		<img src="Group 6.png">
+	</div>
+</div>
+
+
+<table class="width=100%">
+	<tr>
+		<th>lolipop</th>
+		<th>Price(per serving)</th>
+	</tr>
+	<tr>
+		<td>Annualy</td>
+		<td>0.5%</td>
+	</tr>
+	<tr>
+		<td>Monthly</td>
+		<td>1%</td>
+	</tr>
+
+</table></br>
+
+<table class="width=100%">
+	<tr>
+		<th>Icecandy</th>
+		<th>Price(per serving)</th>
+	</tr>
+	<tr>
+		<td>Annualy</td>
+		<td>1%</td>
+	</tr>
+	<tr>
+		<td>Monthly</td>
+		<td>2%</td>
+	</tr>
+</table>
+-->
+
+
+</center>
+</body>
+</html>

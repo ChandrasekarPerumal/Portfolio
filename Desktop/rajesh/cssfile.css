@@ -1,0 +1,389 @@
+body {
+  //background-image: "image/background.png";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+.looking-for-a-lollip {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 58px;
+  width: 489px;
+  text-align: left;
+}
+
+
+
+.bg {
+  background-color: #0099FF;
+  border-radius: 3px;
+  width: 220px;
+  height: 48px;
+}
+
+.outline {
+  border: 2px solid #0099FF;
+  border-radius: 3px;
+  width: 222px;
+  height: 48px;
+}
+
+
+.cta-text {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  width: 211px;
+  text-align: center;
+}
+
+.bg {
+  background-image: linear-gradient(44.59deg, #D5E2E9 0%, #EAEEF1 100%);
+  width: 1267px;
+  height: 409px;
+}
+
+
+.this-is-a-heading-in {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+}
+
+
+.compare-pricing-toda {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+}
+
+
+.lorem-ipsum-is-simpl {
+  color: #8B8E91;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 449px;
+  text-align: center;
+}
+
+
+.button1 {
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.26);
+  width: 500px;
+  height: 46px;
+}
+
+
+button {
+  background-color: #FFFFFF;
+ // border: 3px solid #0099FF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.11);
+  width: 125px;
+  height: 46px;
+}
+
+
+.serving25 {
+  color: #4A4A4A;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  //text-align: right;
+}
+
+
+.toggle-main {
+  //background-color: #FFFFFF;
+ // box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
+  width: 275px;
+  height: 75px;
+}
+.toggle-left {
+  float: left;
+  //background-color: #FFFFFF;
+ // box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
+ // width: px;
+  //height: 100px;
+}
+.toggle-right {
+  float: right;
+ // background-color: #FFFFFF;
+ // box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
+  //width: 100px;
+  //height: 100px;
+}
+
+.annual {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  width: 72px;
+  text-align: left;
+}
+
+
+.monthly {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  width: 83px;
+  text-align: right;
+}
+
+
+.fiftyoff {
+  color: #8B8E91;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 60px;
+  text-align: left;
+}
+
+
+.rectangle-17 {
+  float:left;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
+  width: 428px;
+  height: 200px;
+}
+
+.rectangle-18 {
+  float:left;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
+  width: 214px;
+  height: 200px;
+}
+.rectangle-181 {
+  float:right;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 5px 0 rgba(113, 100, 100, 0.3);
+  width: 214px;
+  height: 200px;
+}
+
+
+.rectangle-19 {
+  float:right;
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
+  width: 214px;
+  height: 230px;
+}
+.rectangle-main {
+  background-color: #FFFFFF;
+  box-shadow: 0 8px 19px 0 rgba(0, 0, 0, 0.16);
+  width: 642px;
+  height: 200px;
+}
+.lollipop {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+
+
+.hun {
+  color: #3D3C31;
+  font-family: AktivGrotesk;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+}
+
+
+.body-5 {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 156px;
+  text-align: center;
+}
+
+.hunblue {
+  color: #0099FF;
+  font-family: AktivGrotesk;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+}
+
+.body-35 {
+  color: #8B8E91;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 22px;
+  width: 78px;
+  text-align: center;
+}
+
+.your-savings-with-lo {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}
+
+
+.100 {
+  color: #0099FF;
+  font-family: AktivGrotesk;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: left;
+}
+
+.body-copy-37 {
+  color: #8B8E91;
+  font-family: AktivGrotesk;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 22px;
+  width: 78px;
+  text-align: left;
+}
+
+
+.heres-what-our-cust {
+  color: #31373D;
+  font-family: AktivGrotesk;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  text-align: center;
+}
+
+
+.lorem-ipsum-is-simpl {
+  color: #8B8E91;
+  font-family: AktivGrotesk;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 22px;
+  width: 366px;
+  text-align: left;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+.container{
+width:250px;
+height:250px;
+position:relative;
+border:#000 solid 1px;
+}
+
+
+.c3{
+width:100px;
+height:50px;
+border:#000 1px solid;
+top:50px;
+left:50px;
+position:absolute;
+}
+
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
